@@ -1,0 +1,32 @@
+# Site information
+title: My Awesome Site
+description: A description of my site.
+baseurl: ""  # Leave empty for the root, or set to "/<repo-name>" for a project page
+url: "https://MruthuKrish.github.io"  # Replace with your GitHub username and repo name
+
+# Theme configuration
+theme: jekyll-theme-primer  # You mentioned you're using this theme
+
+# Plugins used by GitHub Pages
+plugins:
+  - jekyll-seo-tag         # For SEO optimization
+  - jekyll-paginate        # For pagination support
+  - jekyll-github-metadata # For GitHub metadata
+
+# Markdown settings
+markdown: kramdown
+
+# Exclude files or directories from being processed
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
+# Permalink structure (this can be customized if needed)
+permalink: /:year/:month/:day/:title/
+
+# Optional: Customization for your site if needed
+# Use the following to customize the header, footer, and other parts of the site
+
+# Use relative links if you need support for baseurl (if using a project page)
+relative_links: true

@@ -26,7 +26,4 @@ exclude:
 permalink: /:year/:month/:day/:title/
 
 # Optional: Customization for your site if needed
-# Use the following to customize the header, footer, and other parts of the site
-
-# Use relative links if you need support for baseurl (if using a project page)
-relative_links: true
+relative_links: true  # Use relative links if the site is deployed as a project page (not needed for user/organization pages)
